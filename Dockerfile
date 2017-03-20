@@ -8,5 +8,3 @@ RUN apk add --no-cache --update curl && \
     rm -rf /tmp/hugo_${HUGO_VERSION}_Linux_amd64/
 
 EXPOSE 1313
-
-ENTRYPOINT ["hugo"]
